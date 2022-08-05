@@ -60,12 +60,19 @@ var numbers = [2, 4, 6, 8, 10];
     var charJoin = charsReversed.join("*");
     console.log(charJoin)
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
-
+    var charHug = charsReversed.join("")
+    console.log(charHug)
 // Create two arrays consisting of three first names of your cohort members in each.
-
+    var echoA = ["Francisco", "Kelly", "Namier"]
+    var echoB = ["Holden", "Vanessa", "Hieu"]
 // Write the code that sorts the names in alphabetical order.
-
+    console.log(echoA.sort());
+    console.log(echoB.sort());
 // Write the code that sorts the names in reverse alphabetical order.
-
+    console.log(echoA.sort().reverse());
+    console.log(echoB.sort().reverse())
 // Write the code that sorts all the names in alphabetical order in a single array.
+// var echoC = echoA.concat(echoB)
+    console.log(echoC);
+    console.log(echoC.sort())
     
